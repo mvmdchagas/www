@@ -6,23 +6,58 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Página principal</title>
   <style>
-    h1,p{
-      text-align: center;
+    *{
+      padding: 0;
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
     }
-    img{
-      z-index: -1;
+    header{
+      background-color: darkred;
+      width: 98vw;
+      height: 98vh;
+    }
+    div.textos{
+      color: white;
+      text-shadow: 1px 2px 5px black;
       position: absolute;
-      top: 50%;
+      top:50%;
       left: 50%;
       transform: translate(-50%, -50%);
+    }
+    div > h1,p{
+      text-align: center;
+    }
+    main{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    main a{
+      margin-top: 10px;
+      text-decoration: none;
+      background-color: lightskyblue;
+      border-radius: 5px;
+      padding: 5px;
+      color: rgb(85, 13, 13);
+      
+    }
+    main a:hover{
+      transition: .3s;
+      color: white;
+      background-color: darkslateblue;
     }
   </style>
 </head>
 <body>
-  <h1>Página em construção</h1>
-  <p>agradeço seu opoio, é muito importante para mim</p>
-  <img src="workergif.gif" alt="cartoon trabalhador de contrução">
-  <audio src="audio/kicknokia3310.mp3" controls muted></audio>
-  <a href="data:audio/html;audio/kicknokia3310.mp3" download="audio/kicknokia3310.mp3">TRANFERIR KICK NOKIA3310</a>
+  <header>
+    <div class="textos">
+      <h1>Página em construção</h1>
+      <p>agradeço seu opoio, é muito importante para mim</p>
+    </div>
+  </header>
+  <main>
+    <audio src="audio/kicknokia3310.mp3" controls muted></audio>
+    <a href="data:audio/html;audio/kicknokia3310.mp3" download="audio/kicknokia3310.mp3">TRANFERIR KICK NOKIA3310</a>
+  </main>
 </body>
 </html>
