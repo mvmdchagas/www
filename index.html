@@ -10,11 +10,18 @@
       padding: 0;
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
+      
+    }
+    html{
+      overflow-x: hidden;
     }
     header{
       background-color: darkred;
-      width: 98.6vw;
-      height: 98vh;
+      width: 100vw;
+      height: 100vh;
+    }
+    header img{
+      z-index: -1;
     }
     div.textos{
       color: white;
@@ -28,9 +35,12 @@
       text-align: center;
     }
     main{
+      background-color: aquamarine;
       display: flex;
+      justify-content: center;
       align-items: center;
       flex-direction: column;
+      padding: 10% 0px 10% 0px;
     }
     main a{
       margin-top: 10px;
@@ -52,8 +62,13 @@
   <header>
     <div class="textos">
       <h1>Página em construção</h1>
-      <p>agradeço seu opoio, é muito importante para mim</p>
+      <p>agradeço seu opoio, é muito importante para mim</p>      
     </div>
+    <img 
+      src="output-onlinegiftools.gif" 
+      alt="gif de um trabalhador com martelo na mao esquerda e uma tabua na mão direita, imagem em farmato de desenho" 
+      srcset="output-onlinegiftools.gif 1200w"
+      >
   </header>
   <main>
     <audio src="audio/kicknokia3310.mp3" controls muted></audio>
