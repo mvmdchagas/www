@@ -36,19 +36,20 @@
     }
     main{
       background-color: aquamarine;
+      padding: 10% 0px 10% 0px;
+    }
+    main div.audiodownload{
       display: flex;
       justify-content: center;
       align-items: center;
-      flex-direction: column;
-      padding: 10% 0px 10% 0px;
     }
     main a{
-      margin-top: 10px;
+      margin: 0px 0px 0px 10px;
       text-decoration: none;
       background-color: lightskyblue;
       border-radius: 5px;
-      padding: 5px;
       color: rgb(85, 13, 13);
+      padding: 10px;
       
     }
     main a:hover{
@@ -70,9 +71,12 @@
       srcset="output-onlinegiftools.gif 1200w"
       >
   </header>
+
   <main>
-    <audio src="audio/kicknokia3310.mp3" controls muted></audio>
-    <a href="data:audio/html;audio/kicknokia3310.mp3" download="audio/kicknokia3310.mp3">TRANFERIR KICK NOKIA3310</a>
+    <div class="audiodownload">
+      <audio src="audio/kicknokia3310.mp3" controls muted></audio>
+      <a href="data:audio/html;audio/kicknokia3310.mp3" download="audio/kicknokia3310.mp3">TRANFERIR KICK NOKIA3310</a>
+    </div>
   </main>
 </body>
 </html>
