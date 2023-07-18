@@ -35,11 +35,11 @@ i{
     max-width: 300px;
 }
 nav{
-    width: 50vw;
+    width: 65vw;
 }
 .nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .projeto1{
     width: 300px;
