@@ -1,0 +1,56 @@
+/* Color Theme Swatches in Hex */
+.Sable-website-1-hex { color: #7EF2E7; }
+.Sable-website-2-hex { color: #D95A11; }
+.Sable-website-3-hex { color: #BF0404; }
+.Sable-website-4-hex { color: #262626; }
+.Sable-website-5-hex { color: #0D0D0D; }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+header, main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+header{
+    background-color: #BF0404;
+    height: 98vh;
+    gap: 20px;
+}
+img{
+    width: 300px;
+    object-fit: fill;
+}
+i{
+    color: black;
+}
+.header p{
+    max-width: 300px;
+}
+nav{
+    width: 50vw;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+.projeto1{
+    width: 300px;
+    height: 150px;
+    border: 1px solid;
+    margin:50px 0px;
+    border-image: 
+    linear-gradient(
+      to bottom, 
+      #7EF2E7, 
+      #D95A11,
+      red
+    ) 1;
+}
